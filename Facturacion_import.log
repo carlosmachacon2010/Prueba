@@ -1,0 +1,44 @@
+
+Importando Modelo desde XMI
+Root Package: Modelo de procesos de negocio
+Add Classifier: 
+Add Classifier: $help://analysisdiagram.htm
+Add Classifier: 
+Add Classifier: Nota
+Add Classifier: $help://business_process_model_pattern.htm
+Add Classifier: 
+Add Classifier Role: Elementos
+Append Package: Elementos
+Add State: Reserva concretada
+Add State: Tiempo transcurriendo
+Add State: ¿Pago se refleja en la plataforma?
+Add State: Actualizacion del Inventario
+Add State: Proceso Facturacion
+Add State: Calcular 50%   de el valor de la maquína
+Add State: Verificar datos del cliente
+Add State: Solicitud de regeneraciòn de factura
+Add State: Facturar 50% del valor total de la reserva
+Add State: Generar factura y enviar   fisicamente, via email o descargada a traveés de nuestro portal web
+Add State: Fin del Proceso
+Add State: Registrar Pago
+Add State: Enviar Pago al Administrador
+Add State: Entrega de soporte de retiro
+Add State: Fecha de Entrega
+Add State:  Venció plazo
+Add State: Pagar, si vence Plazo Nuevo proceso 
+Add State: Pagar Factura por medio del portal web. personalmente o por transacción bancaria.
+Resolving Classifiers
+Resolving Owners
+Resolve Package Links
+Add Extensions
+Add Diagrams
+Adding Diagram : Proceso de facturacion
+Adding Elements to Diagram : Proceso de facturacion
+Resolving DiagramIDs
+Adding Links to Diagram : Proceso de facturacion
+Resolving Association Classes
+Resolving Parameter Types
+Resolving Attribute Types
+Resolving Note links
+Proveer las referencias externas
+¡Importación completa!

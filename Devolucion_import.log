@@ -1,0 +1,32 @@
+
+Importando Modelo desde XMI
+Root Package: Modelo de procesos de negocio
+Add Classifier: Si la maquina cumple con las condiciones tecnico mecanicas para ser recibida en la empresa por poarte del administrador y se cumple con todo lo pactado en el contrato a la hora de la reserva
+Add State: Elección
+Add State: Si el cliente cumpliò con los plazos determinados en el contrato por lo cual el administrador pasarà la maquina a revicion tecnico mecanica
+Add State: FinalDeFlujo
+Add State: ¿La maquina se encuentra en buen estado y puede ser recibida por el administrador?
+Add State: ¿El cliente realizò la entrega tiempo despues de haber pasado la fecha pactada?
+Add State: La maquina serà reparada por el personal de la empresa teniendo en cuenta la fiabilidad y conocimiento de sus mecanicos para garantizar el buen uso de los recursos,  usar piezas originales y materiales que garanticen el buen funcionamiento de la maquina 
+Add State: La maquina no encuentra en condiciones optimas para ser recibida por el administrador de la empresa por tanto el cliente debe cancelar el valor de los gastos generados por los trabajos que se realicen a la maquina 
+Add State: El cliente transporta la maquina hasta la empresa con sus propios recursos
+Add State: Recibir  de la maquina por parte del administrador, generar paz y salvo al cliente ya que cumplio con lo estipulado en el acta del contrato pactado por las partes
+Add State: El administrador ordena la revisiòn al mecànico de la empresa para verificar el estado actual de la maquina
+Add State: Inicio
+Add State: No el clienteutilizò la maquina por mas tiempo del acordado pr lo tanto se le generarà una factura adicional por pago para los dias de incumplimiento en los terminosdel contrato
+Resolving Classifiers
+Resolving Owners
+Resolve Package Links
+Add Extensions
+Add Diagrams
+Adding Diagram : Modelo de procesos de negocio
+Adding Diagram : Si la maquina cumple con las condisiones tecnico mecanicas para ser recibida en la empresa por poarte del administrador y se cumple con todo lo pactado en el contrato a la hora de la reserva
+Adding Elements to Diagram : Modelo de procesos de negocio
+Resolving DiagramIDs
+Adding Links to Diagram : Modelo de procesos de negocio
+Resolving Association Classes
+Resolving Parameter Types
+Resolving Attribute Types
+Resolving Note links
+Proveer las referencias externas
+¡Importación completa!

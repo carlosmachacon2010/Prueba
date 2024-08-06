@@ -1,0 +1,42 @@
+Exportando paquete a 'D:\carlos\Desktop\Exportacion\Facturacion.xml'
+Retrieving data for export: diagram elements
+Retrieving data for export: links
+Retrieving data for export: constraints
+Retrieving data for export: attribute tagged values
+Retrieving data for export: operation tagged values
+Retrieving data for export: operation parameter tagged values
+Retrieving data for export: connector tagged values
+Completed data retrieval
+Pre-processing export tree...
+Completed pre-processing
+Processing package: Modelo de procesos de negocio
+Element:0: Elementos
+Element:1: 
+Element:2: $help://analysisdiagram.htm
+Element:3: 
+Element:4: Nota
+Element:5: $help://business_process_model_pattern.htm
+Element:6: 
+Diagram: Proceso de facturacion
+Processing package: Elementos
+Element:7: Reserva concretada
+Element:8: Tiempo transcurriendo
+Element:9: ¿Pago se refleja en la plataforma?
+Element:10: Actualizacion del Inventario
+Element:11: Proceso Facturacion
+Element:12: Calcular 50%   de el valor de la maquína
+Element:13: Verificar datos del cliente
+Element:14: Solicitud de regeneraciòn de factura
+Element:15: Facturar 50% del valor total de la reserva
+Element:16: Generar factura y enviar   fisicamente, via email o descargada a traveés de nuestro portal web
+Element:17: Fin del Proceso
+Element:18: Registrar Pago
+Element:19: Enviar Pago al Administrador
+Element:20: Entrega de soporte de retiro
+Element:21: Fecha de Entrega
+Element:22:  Venció plazo
+Element:23: Pagar, si vence Plazo Nuevo proceso 
+Element:24: Pagar Factura por medio del portal web. personalmente o por transacción bancaria.
+Adding State-Tables
+Dando formato XML a la salida...por favor espere
+¡Exportación del documento XMI completa!

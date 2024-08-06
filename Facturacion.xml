@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!DOCTYPE XMI SYSTEM "UML_EA.dtd">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2017-12-12 20:12:48">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_B6199566_46CE_4796_AC41_49D9CD3FC2F3">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Modelo de procesos de negocio" xmi.id="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_96FD8B25_542B_4510_98A2_C083AF58D08B"/>
+						<UML:TaggedValue tag="ea_package_id" value="2"/>
+						<UML:TaggedValue tag="created" value="2017-11-26 14:57:55"/>
+						<UML:TaggedValue tag="modified" value="2017-11-26 14:57:55"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2017-11-26 14:57:55"/>
+						<UML:TaggedValue tag="lastsavedate" value="2017-11-26 14:57:55"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="1"/>
+						<UML:TaggedValue tag="packageFlags" value="isModel=1;VICON=2;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="1"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_B6199566_46CE_4796_AC41_49D9CD3FC2F3_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Elementos" xmi.id="EAID_263D9B69_AB53_4916_AB05_6066487DC668" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3"/>
+										<UML:TaggedValue tag="date_created" value="2017-11-27 18:42:10"/>
+										<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:10"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_263D9B69_AB53_4916_AB05_6066487DC668"/>
+										<UML:TaggedValue tag="package_name" value="Modelo de procesos de negocio"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Sammy"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Propuesto"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Comment xmi.id="EAID_3613808A_E436_4a91_8D1A_0520A7F12CEA" visibility="public" namespace="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="El paquete flujos de trabajo documenta procesos de negocio, involucrados, estructuras y objetos definidos en los paquetes de contexto y objeto mostrando como estos trabajan juntos para proveer actividades de negocio fundamentales."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3"/>
+								<UML:TaggedValue tag="date_created" value="2006-01-05 10:57:01"/>
+								<UML:TaggedValue tag="date_modified" value="2006-01-19 09:47:57"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Modelo de procesos de negocio"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="7"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="eventflags" value="LNK=ff37;"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment name="$help://analysisdiagram.htm" xmi.id="EAID_3CB9C352_5601_4ef5_AD95_D82271BCFC3C" visibility="public" namespace="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="19"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3"/>
+								<UML:TaggedValue tag="date_created" value="2005-12-19 16:13:35"/>
+								<UML:TaggedValue tag="date_modified" value="2006-01-10 12:24:32"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Modelo de procesos de negocio"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="Vea más ejemplos"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="5"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_80D0730C_71A0_4c69_8E3D_D11EFFBACA1B" visibility="public" namespace="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="El paquete contexto de negocio contiene modelos de todos los interesados involucrados, declaración de la misión, objetivos de negocio y la estructura física del negocio &quot;como-es&quot;."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3"/>
+								<UML:TaggedValue tag="date_created" value="2006-01-05 10:56:56"/>
+								<UML:TaggedValue tag="date_modified" value="2006-01-05 12:37:21"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Modelo de procesos de negocio"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="4"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="eventflags" value="LNK=ea0d;"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment name="Nota" xmi.id="EAID_B526E41A_CA3D_4926_A4DB_CDFD895CA447" visibility="public" namespace="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="El modelo de procesos de negocio describe el comportamiento y los flujos de información dentro de una asociación o sistema. &#xA;&#xA;Como un modelo de actividad de negocio, este captura los eventos significativos, entradas, recursos, procesos y salidas asociados con el proceso de negocio relevante."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3"/>
+								<UML:TaggedValue tag="date_created" value="2005-11-20 08:26:05"/>
+								<UML:TaggedValue tag="date_modified" value="2006-01-19 09:46:02"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Modelo de procesos de negocio"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="2"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment name="$help://business_process_model_pattern.htm" xmi.id="EAID_DF5D5B77_4ABF_45e0_942D_F570BFC85FDD" visibility="public" namespace="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="19"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3"/>
+								<UML:TaggedValue tag="date_created" value="2005-11-20 08:31:09"/>
+								<UML:TaggedValue tag="date_modified" value="2006-01-06 15:49:51"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Modelo de procesos de negocio"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="Lea acerca del modelado de procesos de negocio"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_FDD86479_4919_41bf_B128_48CB627FE1B5" visibility="public" namespace="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="El paquete objetos de negocio contiene un modelo de dominio de todos los objetos de interés y sus datos respectivos. "/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3"/>
+								<UML:TaggedValue tag="date_created" value="2006-01-05 10:56:58"/>
+								<UML:TaggedValue tag="date_modified" value="2006-01-05 12:39:59"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Modelo de procesos de negocio"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="6"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="eventflags" value="LNK=f3cb;"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Package name="Elementos" xmi.id="EAPK_263D9B69_AB53_4916_AB05_6066487DC668" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3"/>
+								<UML:TaggedValue tag="created" value="2017-11-27 18:42:10"/>
+								<UML:TaggedValue tag="modified" value="2017-11-27 18:42:10"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Propuesto"/>
+								<UML:TaggedValue tag="author" value="Sammy"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:ActivityModel xmi.id="EAID_263D9B69_AB53_4916_AB05_6066487DC668_ActivityModel" context="EAPK_263D9B69_AB53_4916_AB05_6066487DC668" name="ActivityModel" visibility="public">
+									<UML:StateMachine.transitions>
+										<UML:Transition xmi.id="EAID_029DE737_AB99_4436_957E_14C8C336D90C" visibility="public" source="EAID_1CC2031A_E789_4960_A33B_352818653643" target="EAID_10301238_B6D4_4218_9DA1_69ADB552BC0E">
+											<UML:Transition.guard>
+												<UML:Guard>
+													<UML:Guard.expression>
+														<UML:BooleanExpression body="Si"/>
+													</UML:Guard.expression>
+												</UML:Guard>
+											</UML:Transition.guard>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="StateFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata2" value="Si"/>
+												<UML:TaggedValue tag="ea_localid" value="35"/>
+												<UML:TaggedValue tag="ea_sourceName" value="¿Pago se refleja en la plataforma?"/>
+												<UML:TaggedValue tag="ea_targetName" value="Reserva concretada"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Decision"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="39"/>
+												<UML:TaggedValue tag="ea_targetID" value="41"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_34B6B9A6_0C10_42cb_8C61_87AC157EC37C" visibility="public" source="EAID_10301238_B6D4_4218_9DA1_69ADB552BC0E" target="EAID_DCE65154_07F7_4bc4_8260_1DC71E06CD7B">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="22"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Reserva concretada"/>
+												<UML:TaggedValue tag="ea_targetName" value="Entrega de soporte de retiro"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="41"/>
+												<UML:TaggedValue tag="ea_targetID" value="42"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_BCC7AE86_244A_446b_9DA4_6A2C81490300" visibility="public" source="EAID_BFD30B13_222D_40b9_B04F_D205E4CEA3DE" target="EAID_10301238_B6D4_4218_9DA1_69ADB552BC0E">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="20"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Registrar Pago"/>
+												<UML:TaggedValue tag="ea_targetName" value="Reserva concretada"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="40"/>
+												<UML:TaggedValue tag="ea_targetID" value="41"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_1E30F0CA_6006_4f8e_A1C3_80AFE71BE74E" visibility="public" source="EAID_ECF96398_A56F_4a9a_A20D_0B428C673632" target="EAID_1B98FC06_A906_4115_A9B7_2D58050373C5">
+											<UML:Transition.guard>
+												<UML:Guard>
+													<UML:Guard.expression>
+														<UML:BooleanExpression body="no"/>
+													</UML:Guard.expression>
+												</UML:Guard>
+											</UML:Transition.guard>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="StateFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata2" value="no"/>
+												<UML:TaggedValue tag="ea_localid" value="30"/>
+												<UML:TaggedValue tag="ea_sourceName" value=" Venció plazo"/>
+												<UML:TaggedValue tag="ea_targetName" value="Tiempo transcurriendo"/>
+												<UML:TaggedValue tag="ea_sourceType" value="StateNode"/>
+												<UML:TaggedValue tag="ea_targetType" value="StateNode"/>
+												<UML:TaggedValue tag="ea_sourceID" value="47"/>
+												<UML:TaggedValue tag="ea_targetID" value="50"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_4B98E8E4_6C9B_4e45_954F_25ED304899EB" visibility="public" source="EAID_1B98FC06_A906_4115_A9B7_2D58050373C5" target="EAID_1CC2031A_E789_4960_A33B_352818653643">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="31"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Tiempo transcurriendo"/>
+												<UML:TaggedValue tag="ea_targetName" value="¿Pago se refleja en la plataforma?"/>
+												<UML:TaggedValue tag="ea_sourceType" value="StateNode"/>
+												<UML:TaggedValue tag="ea_targetType" value="Decision"/>
+												<UML:TaggedValue tag="ea_sourceID" value="50"/>
+												<UML:TaggedValue tag="ea_targetID" value="39"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_25D1C979_AFB8_4af9_9E54_73CBCA9B65C9" visibility="public" source="EAID_EF3BE329_E2A9_412b_A82B_04A29327FDC3" target="EAID_1CC2031A_E789_4960_A33B_352818653643">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="16"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Pagar Factura por medio del portal web. personalmente o por transacción bancaria."/>
+												<UML:TaggedValue tag="ea_targetName" value="¿Pago se refleja en la plataforma?"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="Decision"/>
+												<UML:TaggedValue tag="ea_sourceID" value="37"/>
+												<UML:TaggedValue tag="ea_targetID" value="39"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_2FD28647_6676_4ae9_948B_102F4A7D89C7" visibility="public" source="EAID_1CC2031A_E789_4960_A33B_352818653643" target="EAID_ED609B0B_B32E_49d2_95F1_CB196F21C472">
+											<UML:Transition.guard>
+												<UML:Guard>
+													<UML:Guard.expression>
+														<UML:BooleanExpression body="No"/>
+													</UML:Guard.expression>
+												</UML:Guard>
+											</UML:Transition.guard>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata2" value="No"/>
+												<UML:TaggedValue tag="privatedata3" value="se debe pagar o vence el plazo"/>
+												<UML:TaggedValue tag="ea_localid" value="17"/>
+												<UML:TaggedValue tag="ea_sourceName" value="¿Pago se refleja en la plataforma?"/>
+												<UML:TaggedValue tag="ea_targetName" value="Pagar, si vence Plazo Nuevo proceso "/>
+												<UML:TaggedValue tag="ea_sourceType" value="Decision"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="39"/>
+												<UML:TaggedValue tag="ea_targetID" value="45"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+												<UML:TaggedValue tag="mb" value="[No]"/>
+												<UML:TaggedValue tag="mt" value="{weight=se debe pagar o vence el plazo}"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_C43C99BA_0B2E_4059_8351_40A4DDBBEA09" visibility="public" source="EAID_E8EEFC54_5A61_4992_9C49_9332D672B87C" target="EAID_3DE73B1D_4028_45c2_83BA_D65A7C8B0314">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="24"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Fecha de Entrega"/>
+												<UML:TaggedValue tag="ea_targetName" value="Actualizacion del Inventario"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="43"/>
+												<UML:TaggedValue tag="ea_targetID" value="44"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_C8E197D4_70F2_4bd1_9870_A66CE19C7348" visibility="public" source="EAID_3DE73B1D_4028_45c2_83BA_D65A7C8B0314" target="EAID_A2BF0D3C_945B_4a5d_BF25_5507EC619E7C">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="25"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Actualizacion del Inventario"/>
+												<UML:TaggedValue tag="ea_targetName" value="Fin del Proceso"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="StateNode"/>
+												<UML:TaggedValue tag="ea_sourceID" value="44"/>
+												<UML:TaggedValue tag="ea_targetID" value="46"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_7E12522E_FB6D_45e0_A9FC_C7B02E0B9574" visibility="public" source="EAID_42D30C58_8610_420a_A80C_5F662EB54763" target="EAID_4E52A78F_9889_4447_A3CA_D2C698BB51B7">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="26"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Proceso Facturacion"/>
+												<UML:TaggedValue tag="ea_targetName" value="Verificar datos del cliente"/>
+												<UML:TaggedValue tag="ea_sourceType" value="StateNode"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="31"/>
+												<UML:TaggedValue tag="ea_targetID" value="33"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_85DE024B_0ADF_42c4_9D39_419CB73372B3" visibility="public" source="EAID_4B96461D_30CA_4ad6_9A19_2E963E9AC7A5" target="EAID_5CDBBE43_43FC_4fea_A8A9_54AA7FBAAE7A">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="11"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Calcular 50%   de el valor de la maquína"/>
+												<UML:TaggedValue tag="ea_targetName" value="Facturar 50% del valor total de la reserva"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="34"/>
+												<UML:TaggedValue tag="ea_targetID" value="35"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_AE02D2F5_9778_449f_B757_B1F83282349E" visibility="public" source="EAID_4E52A78F_9889_4447_A3CA_D2C698BB51B7" target="EAID_4B96461D_30CA_4ad6_9A19_2E963E9AC7A5">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="10"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Verificar datos del cliente"/>
+												<UML:TaggedValue tag="ea_targetName" value="Calcular 50%   de el valor de la maquína"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="33"/>
+												<UML:TaggedValue tag="ea_targetID" value="34"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_04326C2D_63A0_4816_96F0_BE69CC3AB287" visibility="public" source="EAID_ECF96398_A56F_4a9a_A20D_0B428C673632" target="EAID_53AE09AD_A393_4cb2_9411_7448B509C002">
+											<UML:Transition.guard>
+												<UML:Guard>
+													<UML:Guard.expression>
+														<UML:BooleanExpression body="Si"/>
+													</UML:Guard.expression>
+												</UML:Guard>
+											</UML:Transition.guard>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="StateFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="privatedata2" value="Si"/>
+												<UML:TaggedValue tag="ea_localid" value="34"/>
+												<UML:TaggedValue tag="ea_sourceName" value=" Venció plazo"/>
+												<UML:TaggedValue tag="ea_targetName" value="Solicitud de regeneraciòn de factura"/>
+												<UML:TaggedValue tag="ea_sourceType" value="StateNode"/>
+												<UML:TaggedValue tag="ea_targetType" value="State"/>
+												<UML:TaggedValue tag="ea_sourceID" value="47"/>
+												<UML:TaggedValue tag="ea_targetID" value="48"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_720866BB_9CC9_4f17_B507_0894485CFC4A" visibility="public" source="EAID_53AE09AD_A393_4cb2_9411_7448B509C002" target="EAID_9579BB54_4CC9_4b41_B777_5A9E0AE2C86E">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="StateFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="29"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Solicitud de regeneraciòn de factura"/>
+												<UML:TaggedValue tag="ea_targetName" value="Generar factura y enviar   fisicamente, via email o descargada a traveés de nuestro portal web"/>
+												<UML:TaggedValue tag="ea_sourceType" value="State"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="48"/>
+												<UML:TaggedValue tag="ea_targetID" value="36"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_CD0BFE7B_2C34_421f_99E1_9942CD0E5737" visibility="public" source="EAID_5CDBBE43_43FC_4fea_A8A9_54AA7FBAAE7A" target="EAID_9579BB54_4CC9_4b41_B777_5A9E0AE2C86E">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="13"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Facturar 50% del valor total de la reserva"/>
+												<UML:TaggedValue tag="ea_targetName" value="Generar factura y enviar   fisicamente, via email o descargada a traveés de nuestro portal web"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="35"/>
+												<UML:TaggedValue tag="ea_targetID" value="36"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_418820A1_BAAC_4d20_AFB8_FBB514F3E700" visibility="public" source="EAID_9579BB54_4CC9_4b41_B777_5A9E0AE2C86E" target="EAID_EF3BE329_E2A9_412b_A82B_04A29327FDC3">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="14"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Generar factura y enviar   fisicamente, via email o descargada a traveés de nuestro portal web"/>
+												<UML:TaggedValue tag="ea_targetName" value="Pagar Factura por medio del portal web. personalmente o por transacción bancaria."/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="36"/>
+												<UML:TaggedValue tag="ea_targetID" value="37"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_169CCF2F_7F49_4887_BCD0_523CF71DFB2C" visibility="public" source="EAID_DCE65154_07F7_4bc4_8260_1DC71E06CD7B" target="EAID_A2BF0D3C_945B_4a5d_BF25_5507EC619E7C">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="StateFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="32"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Entrega de soporte de retiro"/>
+												<UML:TaggedValue tag="ea_targetName" value="Fin del Proceso"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="StateNode"/>
+												<UML:TaggedValue tag="ea_sourceID" value="42"/>
+												<UML:TaggedValue tag="ea_targetID" value="46"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_0C5A6F8E_BCD2_4fbc_BE54_1EBF77763E3D" visibility="public" source="EAID_C68495B7_A0E1_44bb_9A6E_F80457F1D04B" target="EAID_BFD30B13_222D_40b9_B04F_D205E4CEA3DE">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="18"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Enviar Pago al Administrador"/>
+												<UML:TaggedValue tag="ea_targetName" value="Registrar Pago"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="38"/>
+												<UML:TaggedValue tag="ea_targetID" value="40"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+										<UML:Transition xmi.id="EAID_DF0D8003_6A8F_43bf_846B_35277B527B38" visibility="public" source="EAID_ED609B0B_B32E_49d2_95F1_CB196F21C472" target="EAID_C68495B7_A0E1_44bb_9A6E_F80457F1D04B">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="style" value="3"/>
+												<UML:TaggedValue tag="ea_type" value="ControlFlow"/>
+												<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+												<UML:TaggedValue tag="linemode" value="3"/>
+												<UML:TaggedValue tag="linecolor" value="-1"/>
+												<UML:TaggedValue tag="linewidth" value="0"/>
+												<UML:TaggedValue tag="seqno" value="0"/>
+												<UML:TaggedValue tag="headStyle" value="0"/>
+												<UML:TaggedValue tag="lineStyle" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="21"/>
+												<UML:TaggedValue tag="ea_sourceName" value="Pagar, si vence Plazo Nuevo proceso "/>
+												<UML:TaggedValue tag="ea_targetName" value="Enviar Pago al Administrador"/>
+												<UML:TaggedValue tag="ea_sourceType" value="Activity"/>
+												<UML:TaggedValue tag="ea_targetType" value="Activity"/>
+												<UML:TaggedValue tag="ea_sourceID" value="45"/>
+												<UML:TaggedValue tag="ea_targetID" value="38"/>
+												<UML:TaggedValue tag="src_visibility" value="Public"/>
+												<UML:TaggedValue tag="src_aggregation" value="0"/>
+												<UML:TaggedValue tag="src_isOrdered" value="false"/>
+												<UML:TaggedValue tag="src_targetScope" value="instance"/>
+												<UML:TaggedValue tag="src_changeable" value="none"/>
+												<UML:TaggedValue tag="src_isNavigable" value="false"/>
+												<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="dst_visibility" value="Public"/>
+												<UML:TaggedValue tag="dst_aggregation" value="0"/>
+												<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+												<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+												<UML:TaggedValue tag="dst_changeable" value="none"/>
+												<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+												<UML:TaggedValue tag="virtualInheritance" value="0"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Transition>
+									</UML:StateMachine.transitions>
+									<UML:StateMachine.top>
+										<UML:CompositeState xmi.id="EAID_263D9B69_AB53_4916_AB05_6066487DC668_Activity_Top" name="{top}">
+											<UML:CompositeState.substate>
+												<UML:ActionState name="Reserva concretada" xmi.id="EAID_10301238_B6D4_4218_9DA1_69ADB552BC0E" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="La orden de reserva será emitida por el administrador quien la enviará al encargado del parqueadero para que realice los procedimientos correspondientes a esa reserva  "/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 17:15:04"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:54:30"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="41"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:PseudoState name="Tiempo transcurriendo" xmi.id="EAID_1B98FC06_A906_4115_A9B7_2D58050373C5" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Se debe esperar a que el administrador le actualice la factura de pago para que pueda el cliente realizar la consignacion en la cuenta de la empresa."/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="StateNode"/>
+														<UML:TaggedValue tag="ea_ntype" value="6"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-27 18:49:43"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-30 20:45:49"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="Sammy"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="50"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:PseudoState>
+												<UML:PseudoState name="¿Pago se refleja en la plataforma?" xmi.id="EAID_1CC2031A_E789_4960_A33B_352818653643" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668" kind="branch">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Si se canceló el valor corespondiente a la reserva se procederá a esta,  de lo contrario se esperará a que el cliente pague  lo correspondiente al adelanto pactado por las partes,   si el plazo se vence el cliente  borrará el proceso anterior  y habilitarse nuevamente en nuestro sistema para proceder a un nuevo proceso  o acercarse a nuestras oficinas   a realizar el proceso."/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Decision"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 16:51:08"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:45:34"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="39"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:PseudoState>
+												<UML:ActionState name="Actualizacion del Inventario" xmi.id="EAID_3DE73B1D_4028_45c2_83BA_D65A7C8B0314" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="El  administrador del parqueadero tendrá como objetivo operacional actualizar periodicamente el inventario lueo de cada reserva par que el administrador pueda disponer de esta informacion para tomar decisiones futuras en cuanto a la adquisicion de nuevas maquinas o saber cuantas puede alquilar en un tiempo determinado. "/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 17:29:25"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="44"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:PseudoState name="Proceso Facturacion" xmi.id="EAID_42D30C58_8610_420a_A80C_5F662EB54763" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="En éste apartado se realizará el proceso de facturación de adelanto por la reserva de  maquínaria para la construcción,  nuestra empresa realiza esta actividad con el fin que la reserva realizada se cumpla y que la empresa no pierda dinero si otro cliente solicita y hay una reserva pendiente que no se cumple     "/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="StateNode"/>
+														<UML:TaggedValue tag="ea_ntype" value="100"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 15:04:57"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="31"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:PseudoState>
+												<UML:ActionState name="Calcular 50%   de el valor de la maquína" xmi.id="EAID_4B96461D_30CA_4ad6_9A19_2E963E9AC7A5" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="La empresa calculará de acuerdo al precio de arrendamiento de la maquina el 50% del valor para ser facturado y pagado por el cliente antes de realizar la reserva a fin de asegurar al cliente para que no cambie de opinion y se dirija a otra   empresa a reservar,  este dinero no será devuelto porque afectaria otras negociaciones de la empresa con  posibles clientes interesados en reservar la misma maquina en el mismo tiempo en caso de haver agotado el inventario y solo existir la maquina antes acordada por el cliente que realice la reserva no adelánte dinero y se vaya a otra empresa."/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 15:43:06"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="34"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:ActionState name="Verificar datos del cliente" xmi.id="EAID_4E52A78F_9889_4447_A3CA_D2C698BB51B7" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Seran verificados los datos del  cliente tales como; codigo, nombre, apellidos dirección y telefono con el fin de conocer a quien se le alquilará la maquína y donde reclamarla en caso que este no haga la respectiva devolucion en los plazos acordados"/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 15:16:59"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="33"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:SimpleState name="Solicitud de regeneraciòn de factura" xmi.id="EAID_53AE09AD_A393_4cb2_9411_7448B509C002" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Al cumplirse el plazo dado por la empresa será necesario realizar un nuevo proceso no sin antes dar de baja el  anterior proceso"/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="State"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 19:22:17"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:47:30"/>
+														<UML:TaggedValue tag="gentype" value="Java"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="48"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:SimpleState>
+												<UML:ActionState name="Facturar 50% del valor total de la reserva" xmi.id="EAID_5CDBBE43_43FC_4fea_A8A9_54AA7FBAAE7A" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Para efectos de factura la empresa tendrá en cuenta ciertos criterios como; codigo de factura, codigo del clente, codigo de la maquína  y monto a cancelar."/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 15:58:44"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="35"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:ActionState name="Generar factura y enviar   fisicamente, via email o descargada a traveés de nuestro portal web" xmi.id="EAID_9579BB54_4CC9_4b41_B777_5A9E0AE2C86E" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Habiendo realizado, revisado y ejecutado  todos los pasos de ejecución propios que se manejan en la empresa  para la elaboracion del proceso de facturación se procederá a la elaboracion del documento para su entrega o envio o si el cliente realizó el proceso en nuestro portal le será generada automaticamente por el sistema "/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 16:06:40"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="36"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:PseudoState name="Fin del Proceso" xmi.id="EAID_A2BF0D3C_945B_4a5d_BF25_5507EC619E7C" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668" kind="final">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Cumplido todos los requerimientos y procesos para dar por terminado el flujo de trabajo del sistema de facturacion,   posteriormente se dará inicio a la entrega de la maquina."/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="StateNode"/>
+														<UML:TaggedValue tag="ea_ntype" value="101"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 17:53:28"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="46"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:PseudoState>
+												<UML:ActionState name="Registrar Pago" xmi.id="EAID_BFD30B13_222D_40b9_B04F_D205E4CEA3DE" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Realizada la verificacion de las relaciones de codigos entre maquina y  cliente se procederá a realizar su respectivo registro con el codigo del pago, codigo cliente y codigo maquina para generar la orden de reserva correspondiente."/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 17:08:52"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="40"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:ActionState name="Enviar Pago al Administrador" xmi.id="EAID_C68495B7_A0E1_44bb_9A6E_F80457F1D04B" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="El Administrador verificará que el pago correspondiente contenga la informacion relacionada entre los codigos de pago, del cliente y el codigo de la maquina reservada para su posterior entrega"/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 16:50:21"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="38"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:ActionState name="Entrega de soporte de retiro" xmi.id="EAID_DCE65154_07F7_4bc4_8260_1DC71E06CD7B" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="Realizados los procedimientos por parte del encargado del administrador, la reserva queda autorizada y se le enviará al cliente por medio presencial, via email o si realizó el procedimiento por el portal web este le generará el respectivo documento, reserva exitosa."/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 17:19:08"/>
+														<UML:TaggedValue tag="date_modified" value="2017-12-06 08:43:35"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="42"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:ActionState name="Fecha de Entrega" xmi.id="EAID_E8EEFC54_5A61_4992_9C49_9332D672B87C" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="El encargado debe tener la maquina correspondiente a la registrada en los documentos de la reserva en optimas condiciones para la fecha de entrega y asi poder cumplir a satisfaccion con el proceso "/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 17:24:43"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="43"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:PseudoState name=" Venció plazo" xmi.id="EAID_ECF96398_A56F_4a9a_A20D_0B428C673632" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="El cliente debe pagar en el plazo estipulado para acceder a la reserva si el plazo se vence debe deshabilitar el proceso anterior en el portal web o dirijirse a la ofina a realizar un nuevo proceso"/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="StateNode"/>
+														<UML:TaggedValue tag="ea_ntype" value="11"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 19:15:59"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="47"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:PseudoState>
+												<UML:ActionState name="Pagar, si vence Plazo Nuevo proceso " xmi.id="EAID_ED609B0B_B32E_49d2_95F1_CB196F21C472" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="El cliente debe pagar en el plazo estipulado para acceder a la reserva si el plazo se vence debe deshabilitar el proceso anterior en el portal web o dirijirse a la ofina a realizar un nuevo proceso"/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 17:44:38"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="45"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+												<UML:ActionState name="Pagar Factura por medio del portal web. personalmente o por transacción bancaria." xmi.id="EAID_EF3BE329_E2A9_412b_A82B_04A29327FDC3" visibility="public" namespace="EAPK_263D9B69_AB53_4916_AB05_6066487DC668">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="documentation" value="El cliente se hará resposable de efectuar los pagos facturados y correspondientes solo al 50% del adelanto para reservar en los plazos acordados o se procederá a dejar la reserva sin validez y el cliente tendrá que realizar un nuevo proceso de reserva, el cliente se compromete a realizar el pago del otro 50% restante al recibir la maquina antes reservada. "/>
+														<UML:TaggedValue tag="isAbstract" value="false"/>
+														<UML:TaggedValue tag="isSpecification" value="false"/>
+														<UML:TaggedValue tag="ea_stype" value="Activity"/>
+														<UML:TaggedValue tag="ea_ntype" value="0"/>
+														<UML:TaggedValue tag="version" value="1.0"/>
+														<UML:TaggedValue tag="package" value="EAPK_263D9B69_AB53_4916_AB05_6066487DC668"/>
+														<UML:TaggedValue tag="date_created" value="2017-11-26 16:40:17"/>
+														<UML:TaggedValue tag="date_modified" value="2017-11-27 18:42:15"/>
+														<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+														<UML:TaggedValue tag="tagged" value="0"/>
+														<UML:TaggedValue tag="package_name" value="Elementos"/>
+														<UML:TaggedValue tag="phase" value="1.0"/>
+														<UML:TaggedValue tag="author" value="user"/>
+														<UML:TaggedValue tag="complexity" value="1"/>
+														<UML:TaggedValue tag="tpos" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="37"/>
+														<UML:TaggedValue tag="ea_eleType" value="element"/>
+														<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+													</UML:ModelElement.taggedValue>
+												</UML:ActionState>
+											</UML:CompositeState.substate>
+										</UML:CompositeState>
+									</UML:StateMachine.top>
+								</UML:ActivityModel>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="Proceso de facturacion" xmi.id="EAID_37EAD318_4467_41dc_AEA6_A9FBEA08393B" diagramType="CollaborationDiagram" owner="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="user"/>
+				<UML:TaggedValue tag="created_date" value="2005-11-20 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2017-12-06 09:05:33"/>
+				<UML:TaggedValue tag="package" value="EAPK_B6199566_46CE_4796_AC41_49D9CD3FC2F3"/>
+				<UML:TaggedValue tag="type" value="Analysis"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="1"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=795;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=744;Top=590;Right=764;Bottom=610;" subject="EAID_1B98FC06_A906_4115_A9B7_2D58050373C5" seqno="1" style="DUID=3EDADF0E;BCol=37632;LBL=CX=66:CY=26:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=693;Top=324;Right=813;Bottom=376;" subject="EAID_53AE09AD_A393_4cb2_9411_7448B509C002" seqno="2" style="DUID=C76CF09D;BCol=37632;"/>
+				<UML:DiagramElement geometry="Left=684;Top=430;Right=820;Bottom=495;" subject="EAID_ECF96398_A56F_4a9a_A20D_0B428C673632" seqno="3" style="DUID=80C2087D;BCol=37632;LBL=CX=36:CY=26:OX=47:OY=16:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=191;Top=599;Right=212;Bottom=620;" subject="EAID_A2BF0D3C_945B_4a5d_BF25_5507EC619E7C" seqno="4" style="DUID=0C378728;BCol=37632;LBL=CX=73:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=135;Top=520;Right=270;Bottom=563;" subject="EAID_DCE65154_07F7_4bc4_8260_1DC71E06CD7B" seqno="5" style="DUID=5D03F6EF;BCol=37632;"/>
+				<UML:DiagramElement geometry="Left=272;Top=439;Right=407;Bottom=473;" subject="EAID_10301238_B6D4_4218_9DA1_69ADB552BC0E" seqno="6" style="DUID=1D7EB63B;BCol=37632;"/>
+				<UML:DiagramElement geometry="Left=484;Top=509;Right=633;Bottom=584;" subject="EAID_1CC2031A_E789_4960_A33B_352818653643" seqno="7" style="DUID=879491E6;BCol=37632;LBL=CX=95:CY=26:OX=27:OY=23:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=492;Top=422;Right=627;Bottom=490;" subject="EAID_EF3BE329_E2A9_412b_A82B_04A29327FDC3" seqno="8" style="DUID=E35644AD;BCol=37632;"/>
+				<UML:DiagramElement geometry="Left=491;Top=321;Right=626;Bottom=387;" subject="EAID_9579BB54_4CC9_4b41_B777_5A9E0AE2C86E" seqno="9" style="DUID=E588DEAB;BCol=37632;"/>
+				<UML:DiagramElement geometry="Left=494;Top=250;Right=629;Bottom=293;" subject="EAID_5CDBBE43_43FC_4fea_A8A9_54AA7FBAAE7A" seqno="10" style="DUID=CD2AA1CA;BCol=37632;"/>
+				<UML:DiagramElement geometry="Left=495;Top=181;Right=630;Bottom=223;" subject="EAID_4B96461D_30CA_4ad6_9A19_2E963E9AC7A5" seqno="11" style="DUID=9E39EF7B;BCol=37632;"/>
+				<UML:DiagramElement geometry="Left=495;Top=124;Right=630;Bottom=152;" subject="EAID_4E52A78F_9889_4447_A3CA_D2C698BB51B7" seqno="12" style="DUID=94CAFC13;BCol=37632;"/>
+				<UML:DiagramElement geometry="Left=550;Top=66;Right=570;Bottom=86;" subject="EAID_42D30C58_8610_420a_A80C_5F662EB54763" seqno="13" style="DUID=599A376E;LBL=CX=55:CY=26:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=35;EY=-16;EDGE=4;$LLB=;LLT=;LMT=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=373:-546$;" subject="EAID_029DE737_AB99_4436_957E_14C8C336D90C" style="Mode=3;EOID=1D7EB63B;SOID=879491E6;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=CX=16:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_04326C2D_63A0_4816_96F0_BE69CC3AB287" style="Mode=3;EOID=C76CF09D;SOID=80C2087D;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=-2;EY=10;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=199:-599$;" subject="EAID_169CCF2F_7F49_4887_BCD0_523CF71DFB2C" style="Mode=3;EOID=0C378728;SOID=5D03F6EF;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-9;SY=-6;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=558:-606$;" subject="EAID_4B98E8E4_6C9B_4e45_954F_25ED304899EB" style="Mode=3;EOID=879491E6;SOID=3EDADF0E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1E30F0CA_6006_4f8e_A1C3_80AFE71BE74E" style="Mode=3;EOID=3EDADF0E;SOID=80C2087D;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-60;SY=12;EX=-2;EY=14;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_720866BB_9CC9_4f17_B507_0894485CFC4A" style="Mode=3;EOID=E588DEAB;SOID=C76CF09D;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=-1;EY=13;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7E12522E_FB6D_45e0_A9FC_C7B02E0B9574" style="Mode=3;EOID=94CAFC13;SOID=599A376E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-1;SY=-1;EX=-6;EY=20;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=195:-457$;" subject="EAID_34B6B9A6_0C10_42cb_8C61_87AC157EC37C" style="Mode=3;EOID=5D03F6EF;SOID=1D7EB63B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_25D1C979_AFB8_4af9_9E54_73CBCA9B65C9" style="Mode=3;EOID=879491E6;SOID=E35644AD;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_418820A1_BAAC_4d20_AFB8_FBB514F3E700" style="Mode=3;EOID=E35644AD;SOID=E588DEAB;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=3;EY=32;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_CD0BFE7B_2C34_421f_99E1_9942CD0E5737" style="Mode=3;EOID=E588DEAB;SOID=CD2AA1CA;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_85DE024B_0ADF_42c4_9D39_419CB73372B3" style="Mode=3;EOID=CD2AA1CA;SOID=9E39EF7B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AE02D2F5_9778_449f_B757_B1F83282349E" style="Mode=3;EOID=9E39EF7B;SOID=94CAFC13;Color=0;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
