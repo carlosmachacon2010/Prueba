@@ -11,21 +11,22 @@ Pre-processing export tree...
 Completed pre-processing
 Processing package: Modelo de procesos de negocio
 Element:0: Si la maquina cumple con las condiciones tecnico mecanicas para ser recibida en la empresa por poarte del administrador y se cumple con todo lo pactado en el contrato a la hora de la reserva
-Element:1: Elección
-Element:2: Si el cliente cumpliò con los plazos determinados en el contrato por lo cual el administrador pasarà la maquina a revicion tecnico mecanica
+Element:1: ElecciÃ³n
+Element:2: Si el cliente cumpliÃ² con los plazos determinados en el contrato por lo cual el administrador pasarÃ  la maquina a revicion tecnico mecanica
 Element:3: FinalDeFlujo
-Element:4: ¿La maquina se encuentra en buen estado y puede ser recibida por el administrador?
-Element:5: ¿El cliente realizò la entrega tiempo despues de haber pasado la fecha pactada?
-Element:6: La maquina serà reparada por el personal de la empresa teniendo en cuenta la fiabilidad y conocimiento de sus mecanicos para garantizar el buen uso de los recursos,  usar piezas originales y materiales que garanticen el buen funcionamiento de la maquina 
+Element:4: Â¿La maquina se encuentra en buen estado y puede ser recibida por el administrador?
+Element:5: Â¿El cliente realizÃ² la entrega tiempo despues de haber pasado la fecha pactada?
+Element:6: La maquina serÃ  reparada por el personal de la empresa teniendo en cuenta la fiabilidad y conocimiento de sus mecanicos para garantizar el buen uso de los recursos,  usar piezas originales y materiales que garanticen el buen funcionamiento de la maquina 
 Element:7: La maquina no encuentra en condiciones optimas para ser recibida por el administrador de la empresa por tanto el cliente debe cancelar el valor de los gastos generados por los trabajos que se realicen a la maquina 
 Element:8: El cliente transporta la maquina hasta la empresa con sus propios recursos
 Element:9: Recibir  de la maquina por parte del administrador, generar paz y salvo al cliente ya que cumplio con lo estipulado en el acta del contrato pactado por las partes
-Element:10: El administrador ordena la revisiòn al mecànico de la empresa para verificar el estado actual de la maquina
+Element:10: El administrador ordena la revisiÃ²n al mecÃ nico de la empresa para verificar el estado actual de la maquina
 Element:11: Inicio
-Element:12: No el clienteutilizò la maquina por mas tiempo del acordado pr lo tanto se le generarà una factura adicional por pago para los dias de incumplimiento en los terminosdel contrato
+Element:12: No el clienteutilizÃ² la maquina por mas tiempo del acordado pr lo tanto se le generarÃ  una factura adicional por pago para los dias de incumplimiento en los terminosdel contrato
 Diagram: Modelo de procesos de negocio
 Diagram: Si la maquina cumple con las condisiones tecnico mecanicas para ser recibida en la empresa por poarte del administrador y se cumple con todo lo pactado en el contrato a la hora de la reserva
 Adding State-Tables
 Dando formato XML a la salida...por favor espere
-¡Exportación del documento XMI completa!
+Â¡ExportaciÃ³n del documento XMI completa!
 Esta es una modificacion de prueba para este archivo.
+Este es un cambio surgio de gitHub remoto.
